@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html{
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: #F5F5F5;
+    background-position: center;
+    background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 100vh; 
+	overflow: hidden; 
+
+}
+::selection{
+    color: #fff;
+    background: #292929;
+}
+
+.container .form{
+	position: fixed;
+	margin-top: 5px;
+    margin-left: 650px;
+    padding: 30px 35px;
+    border-radius: 5px;
+	color: white;
+}
+.container h2{
+    font-size: 28px;
+    margin-top: 20px;
+	padding-bottom: 5px;
+	color:#00008B;
+}
+.container .form form .form-control{
+    height: 35px;
+	width: 350px;
+    font-size: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Poppins';
+	background: white;
+	border-radius: px;
+	border: 1px solid #acacac;
+}
+.container .form form .forget-pass{
+    margin: -15px 0 15px 0;
+}
+.container .form form .forget-pass a{
+   font-size: 15px;
+}
+.container .form form .button{
+	margin-top: -20px;
+	width: 200px;
+    height: 40px;
+    background: #00008B;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+	border-radius: 30px;
+	border: none;
+    transition: all 0.3s ease;
+}
+.container .form form .button:hover{
+    background: #5272F2;
+}
+.container .form form .link{
+	top: 0;
+	right: 0;
+	position: absolute;
+    padding: 20px 0;
+	padding-right: 120px;
+	color: black;
+	font-weight: 400;
+	margin-top: -15px;
+	margin-right: -100px;
+}
+.container .form form .link a{
+	top: 0;
+	right: 0;
+	position: absolute;
+	text-decoration: none;
+	padding: 20px 0;
+    color: #00008B;
+	padding-right: 30px;
+	font-weight: bold;
+	margin-top: 13px;
+	margin-right: 50px;
+	font-size: 16px;
+	display: inline-block; 
+	padding: 7px; 
+}
+.container .login-form form p{
+    font-size: 14px;
+	
+}
+.container .row .alert{
+    font-size: 14px;
+}
+.form-group {
+	
+  	margin-bottom: 20px; 
+}
+.form-group label{
+	color: black; 
+	font-size: 15px;
+}
+.logo img{
+	width: 200px;
+    height: auto; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.signup-vector img{
+	width: 500px;
+    height: auto; 
+	position: absolute;
+	left: 0;
+	margin-top: 60px;
+	margin-left: 80px;
+}
+.signin-acc {
+	color: black;
+} 
+.signin-acc a {
+	color: #00008B;
+	text-decoration: none;
+	font-weight: 600;
+}
+.form-group label {
+	font-size: 13px; 
+  }
+  
